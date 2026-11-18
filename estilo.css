@@ -9,12 +9,12 @@
    span {
    display: block;
    font-family: monospace;
-   font-size: 20px;
+   font-size: 50px;
    white-space: nowrap;
    border-right: 4px solid;
    width: 15ch; 
    position: absolute;
-    top: 200px;
+    top: 500px;
     left: 50%;
     transform: translateX(-50%);
    overflow: hidden; 
@@ -36,7 +36,7 @@
 
 .posicion {
    position: absolute;
-   top: 98%;
+   top: 95%;
    left: 50%;
    transform: translate(-50%, -50%);
 
@@ -45,9 +45,32 @@
 
 .posicion1 {
    position: absolute;
-   top: 2%;
+   top: 5%;
    left: 50%;
    transform: translate(-50%, -50%);
 
 }
 
+
+
+
+.video-fondo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+/* Cuadrado central */
+.cuadrado {
+    position: absolute;
+    width: 80vw;
+    height: 50vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(241, 11, 11);
+}
