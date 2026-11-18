@@ -1,0 +1,12 @@
+   body {
+   background-color: #08ee1f;
+}
+
+
+.posicion2 {
+   position: absolute;
+   top: 98%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+
+}

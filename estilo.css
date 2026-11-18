@@ -32,3 +32,22 @@
    50%  {border-color: transparent }
 
 }
+
+
+.posicion {
+   position: absolute;
+   top: 98%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+
+}
+
+
+.posicion1 {
+   position: absolute;
+   top: 2%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+
+}
+
