@@ -1,12 +1,38 @@
    body {
-   background-color: #0c08ee;
+   background-color: #0f0f0f;
 }
 
+.boton {
+    display: inline-block;
+    background-color: rgb(206, 251, 3);
+    color: black;
+    padding: 2px 25px;
+    text-decoration: none;
+    border: 1px solid black;
+    cursor: pointer;
+    font-family: monospace;
+}
 
-.posicion4 {
-   position: absolute;
-   top: 98%;
-   left: 50%;
-   transform: translate(-50%, -50%);
+.contenedor {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuadrado {
+    width: 1000px;
+    height: 350px;
+    background-color: rgb(17, 139, 239);
+}
+
+.imagen2 {
+    position: absolute;
+    width: 300px;
+    height: auto;
+    z-index: 2;
 }

@@ -3,16 +3,6 @@
 }
 
 
-.posicion3 {
-   color: rgb(14, 14, 14);
-   position: absolute;
-   font-size: 50px;
-   top: 5%;
-   left: 49%;
-   transform: translate(-50%, -50%);
-   z-index: 0;
-}
-
 .video-fondo {
     position: fixed;
     top: 0;
@@ -24,12 +14,37 @@
 }
 
 
-.cuadrado {
-    position: absolute;
-    width: 80vw;
-    height: 50vh;
+.boton {
+    display: inline-block;
+    background-color: rgb(206, 251, 3);
+    color: black;
+    padding: 2px 25px;
+    text-decoration: none;
+    border: 1px solid black;
+    cursor: pointer;
+    font-family: monospace;
+}
+
+.contenedor {
+    position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgb(60, 240, 28);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuadrado {
+    width: 1000px;
+    height: 350px;
+    background-color: rgb(91, 235, 8);
+}
+
+.imagen1 {
+    position: absolute;
+    width:300px;
+    height: auto;
+    z-index: 2;
 }

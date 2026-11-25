@@ -1,4 +1,38 @@
    body {
-   background-color: #f48b01;
+   background-color: #000000;
 }
 
+.boton {
+    display: inline-block;
+    background-color: rgb(206, 251, 3);
+    color: black;
+    padding: 2px 25px;
+    text-decoration: none;
+    border: 1px solid black;
+    cursor: pointer;
+    font-family: monospace;
+}
+
+.contenedor {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuadrado {
+    width: 1000px;
+    height: 350px;
+    background-color: rgb(235, 152, 8);
+}
+
+.imagen1 {
+    position: absolute;
+    width:300px;
+    height: auto;
+    z-index: 2;
+}
