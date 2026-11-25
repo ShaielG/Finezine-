@@ -49,7 +49,10 @@
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: rgb(241, 11, 11);
+    animation-duration: 20s;
+    
 }
+
 
  
 
