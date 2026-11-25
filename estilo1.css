@@ -23,6 +23,18 @@
     font-family: monospace;
 }
 
+.linea1 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    font-family: monospace;
+    padding: 10px;
+    font-size: 40px;
+    text-align: center;
+    width: 700px;
+}
 
 .cuadrado {
     position: absolute;
@@ -31,7 +43,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgb(241, 11, 11);
+    background-color: rgb(223, 200, 200);
     animation-duration: 4s;
     
 }

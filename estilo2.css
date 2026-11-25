@@ -1,5 +1,5 @@
    body {
-   background-color: #000000;
+   background-color: #ef0505;
 }
 
 .boton {
@@ -27,10 +27,10 @@
 .cuadrado {
     width: 1000px;
     height: 350px;
-    background-color: rgb(235, 152, 8);
+    background-color: rgb(8, 235, 27);
 }
 
-.imagen1 {
+.imagen4 {
     position: absolute;
     width:300px;
     height: auto;
