@@ -2,6 +2,39 @@
    background-color: #f30000;
 }
 
+.video-fondo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.boton {
+    display: inline-block;
+    background-color: rgb(206, 251, 3);
+    color: black;
+    padding: 2px 25px;
+    text-decoration: none;
+    border: 1px solid black;
+    cursor: pointer;
+    font-family: monospace;
+}
+
+
+.cuadrado {
+    position: absolute;
+    width: 80vw;
+    height: 50vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(241, 11, 11);
+    animation-duration: 4s;
+    
+}
 
 .posicion3 {
    color: rgb(14, 14, 14);
