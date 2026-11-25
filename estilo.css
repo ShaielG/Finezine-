@@ -1,6 +1,7 @@
 
    body {
    background-color: #ff1307;
+   
 }
 
 
@@ -49,7 +50,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: rgb(241, 11, 11);
-    animation-duration: 20s;
+    animation-duration: 4s;
     
 }
 
@@ -64,7 +65,7 @@
    border-right: 4px solid;
    width: 15ch; 
    position: absolute;
-    top: 500px;
+    top: 300px;
     left: 50%;
     transform: translateX(-50%);
    overflow: hidden; 
