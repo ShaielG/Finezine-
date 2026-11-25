@@ -42,8 +42,12 @@
 }
 
 .imagen3 {
-    position: absolute;
-    width:300px;
+    position: fixed;
+    width: 300px;
     height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     z-index: 2;
 }
+
